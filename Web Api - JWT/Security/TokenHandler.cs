@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Web_Api___JWT.Security
 {
-    public class TokenHandler
+    public static class TokenHandler
     {
         public static Token CreateToken (IConfiguration configuration)
         {
